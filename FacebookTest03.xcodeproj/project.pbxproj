@@ -21,6 +21,7 @@
 		51E09B3F188EAE28004A8140 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E09B21188EAE28004A8140 /* UIKit.framework */; };
 		51E09B47188EAE28004A8140 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51E09B45188EAE28004A8140 /* InfoPlist.strings */; };
 		51E09B49188EAE28004A8140 /* FacebookTest03Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E09B48188EAE28004A8140 /* FacebookTest03Tests.m */; };
+		51E09B53188EAE69004A8140 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E09B52188EAE69004A8140 /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		51E09B44188EAE28004A8140 /* FacebookTest03Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FacebookTest03Tests-Info.plist"; sourceTree = "<group>"; };
 		51E09B46188EAE28004A8140 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		51E09B48188EAE28004A8140 /* FacebookTest03Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacebookTest03Tests.m; sourceTree = "<group>"; };
+		51E09B52188EAE69004A8140 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51E09B20188EAE28004A8140 /* CoreGraphics.framework in Frameworks */,
+				51E09B53188EAE69004A8140 /* FacebookSDK.framework in Frameworks */,
 				51E09B22188EAE28004A8140 /* UIKit.framework in Frameworks */,
 				51E09B1E188EAE28004A8140 /* Foundation.framework in Frameworks */,
 			);
@@ -117,6 +120,7 @@
 				51E09B2F188EAE28004A8140 /* Main.storyboard */,
 				51E09B32188EAE28004A8140 /* ViewController.h */,
 				51E09B33188EAE28004A8140 /* ViewController.m */,
+				51E09B52188EAE69004A8140 /* FacebookSDK.framework */,
 				51E09B35188EAE28004A8140 /* Images.xcassets */,
 				51E09B24188EAE28004A8140 /* Supporting Files */,
 			);
@@ -378,6 +382,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/gt-macbookpro-01/Documents/Projects03/FacebookTest03/FacebookTest03",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FacebookTest03/FacebookTest03-Prefix.pch";
 				INFOPLIST_FILE = "FacebookTest03/FacebookTest03-Info.plist";
@@ -391,6 +399,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/gt-macbookpro-01/Documents/Projects03/FacebookTest03/FacebookTest03",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FacebookTest03/FacebookTest03-Prefix.pch";
 				INFOPLIST_FILE = "FacebookTest03/FacebookTest03-Info.plist";
